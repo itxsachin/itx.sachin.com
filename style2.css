@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),url(file:///C:/Users/admin/Downloads/sky%20blue.jpg);
+    /* Set a specific height */
+    min-height: 1900px; 
+    margin-top: 50px;
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+h1{
+    font-size: 80px;
+    font-family: fantasy;
+    color: rgb(145, 139, 134);
+    margin-left: 20px;
+}
+ul{
+    float: right;
+    font-size: 20px;
+    margin-top: 1.5%;
+    margin-right: 1%;
+}
+ul a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+ul :hover{
+    background-color: rgb(79, 82, 87);
+    color: #000;
+}
+.logo img{
+    height: 100px;
+    float: left;
+    clip-path: circle();
+    margin-top: 30px;
+}
+.margin h3{
+    font-family: fantasy;
+    font-size: 80px;
+    margin-top: 10px;
+    color: #fff;
+}
+.margin p{
+    text-align: centers;
+    font-size: x-large;
+    margin-left: 90px;
+    font-family: fantasy;
+    font-size: 30px;
+    color: aliceblue;
+}
+    
+.back{
+    background-color: #000;
+    /* Set a specific height */
+    min-height: 1900px; 
+    margin-top: 50px;
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(72, 190, 219);
+    margin-bottom: 50px;
+}
+
+.imgq{
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.imgw{
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.imge{
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.imgr{
+
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 500px;
+}
+.imgt{
+
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 500px;
+
+}
+.imgy{
+    height: 550px;
+    margin-left: 20px;
+}
+.imgu{
+    height: 550px;
+    margin-left: 10px;
+}
+.imgi{
+    height: 550px;
+    margin-left: 10px;
+}
+.imgo{
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.imgp{
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.show:nth-child(2){
+    transition-delay: 200ms;
+}
+.show:nth-child(3){
+    transition-delay: 400ms;
+}
+.show:nth-child(4){
+    transition-delay: 600ms;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.show:nth-child(2){
+    transition-delay: 200ms;
+}
+.show:nth-child(3){
+    transition-delay: 400ms;
+}
+.show:nth-child(4){
+    transition-delay: 600ms;
+}

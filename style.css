@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),
+    url(file:///D:/Tanjiro_vs._Susamaru1280x720.png);
+      
+        /* Set a specific height */
+        min-height: 495px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+h1{
+    font-size: 80px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+h2{
+    font-size: 1920px;
+    margin-top: 100px;
+    font-size: 200px;
+    text-align: center;
+    margin-right: 6%;
+    background-image:url(file:///D:/gradient1234.jpg);
+    background-position-x: 50%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.main h2{
+    color: aliceblue;
+}
+ul{
+    float: right;
+    font-size: 20px;
+    margin-top: 1.5%;
+    margin-right: 1%;
+}
+ul a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+ul :hover{
+    background-color: rgb(10, 125, 255);
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    clip-path: circle();
+    margin-top: 20px;
+}
+p{
+    font-size: 22px;
+    margin-left: 5%;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.logo img{
+    size: 5% 5%;
+    width: 100%;
+    margin-top: 18%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10));
+}
+.net{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),
+    url(file:///C:/Users/admin/Downloads/1117452.jpg);
+      
+        /* Set a specific height */
+        min-height: 700px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.net h3{
+    text-align: left;
+    margin-left: 200px;
+    font-size: 100px;
+    color: aliceblue;
+    font-family: fantasy;
+    position: relative;
+    animation-direction: alternate;
+    animation: flash 1.5s linear forwards;
+    background: linear-gradient(90deg,transparent 0% #000 5% , #000 100%);
+
+}
+
+.mock{
+    background-image:url(file:///D:/naruto-six-paths-sage-mode-4k-uhdpaper.com-246.0_c-thumbnail.jpg);
+    /* Set a specific height */
+    min-height: 600px; 
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mock h3{
+    text-align: right;
+    color: rgb(92, 115, 134);
+    font-family: fantasy;
+    margin-right: 100px;
+}
+.nt{
+    margin-left: 380px;
+}
+.click{
+    font-family: fantasy;
+}
+.background{
+    background-image:linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.20)),
+    url(file:///D:/image/jpg.image.jfif);
+
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+}
+.para{
+    font-size: 70px;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+}
+.para a{
+    color: #000;
+    font-size: 40px;
+}
+.smallthing{
+    text-align: center;
+}
+.button{
+    margin-left: 600px;
+    margin-top: 25px;
+    padding: 14px 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: rgb(23, 85, 219)
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover{
+    background-color: rgb(10, 125, 255);
+    color: #000;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.click{
+    margin-left: 460px;
+    margin-bottom: 50px;
+    padding: 14px 28px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: rgb(66, 71, 83);
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 60px;
+}
+.click:hover{
+    background-color: rgb(150, 161, 168);
+}
+.instagram :hover{
+    transition: 0.5s;
+    color: rgb(99, 102, 105);
+}
+.mock h3{
+    color: rgb(92, 115, 134);
+    animation: animate 2s ease-in;
+}
+@keyframes animate{
+    0%
+    {
+        clip-path: polygon(100% 0%, 51% 51%, 100% 100%, 0 100%, 0 50%, 0 1%);
+
+    }
+    50%{
+        clip-path: polygon(100% 0%, 100% 56%, 100% 100%, 45% 100%, 0 50%, 44% 0);
+
+    }
+}
+.Ksj2{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 0.50s;
+    transform: translateX(-50%);
+}
+.add{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+

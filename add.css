@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),url(file:///C:/Users/admin/Downloads/sky%20blue.jpg);
+    /* Set a specific height */
+    min-height: 1900px; 
+    margin-top: 50px;
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

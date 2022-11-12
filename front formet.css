@@ -1,0 +1,13 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),
+    url(file:///D:/Tanjiro_vs._Susamaru1280x720.png);
+      
+        /* Set a specific height */
+        min-height: 495px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
